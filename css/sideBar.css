@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding : 0;
+}
+.Navigation {
+	background-color: #F1F1F1;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+}
+.Navigation a {
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.Navigation a:hover {
+	color: red;
+}
+.Navigation-link li  {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.sideBar {
+	
+	height: 661px;
+	
+	padding: 0px 10px;
+	
+	
+	background-image: url("../img/sidebar.png");
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+
+}
+.sideBar ul {
+	padding-top: 60px;
+}
+
+.sideBar ul li {
+	opacity:0;
+	overflow: hidden;
+		
+
+}
+
+.sideBar li {
+	padding: 10px 10px 20px 0px;
+
+}
+	
